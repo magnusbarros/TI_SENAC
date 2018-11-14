@@ -10,14 +10,17 @@ export default class zoo{
     por ele mesmo
     */
 
+   
     constructor(end: string,
         list: Array<animal>){
             this.listaDeAnimais = list
-        }
-
-        definirEndereco(end: string): void{
             this.endereco = end
         }
+
+
+       /* definirEndereco(end: string): void{
+            this.endereco = end
+        }*/
 
         public mostrarEndereco(): string{
             return this.endereco
@@ -26,4 +29,6 @@ export default class zoo{
         public mostrarAnimais(): Array<animal>{
             return this.listaDeAnimais
         }
+
+        
 }

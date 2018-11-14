@@ -5,7 +5,11 @@ var animal = /** @class */ (function () {
     Para que o animal seja criado,
     quero que defina a quantidade
     de olhos e dentes*/
-    function animal() {
+    function animal(qtdDentes, qtdOlhos, nome, tipo) {
+        this.quantidadeDeDentes = qtdDentes;
+        this.quantidadeDeOlhos = qtdOlhos;
+        this.nomeDoAnimal = nome;
+        this.tipoDeAnimal = tipo;
     }
     animal.prototype.definirNome = function (nome) {
         this.nomeDoAnimal = nome;

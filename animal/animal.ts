@@ -9,8 +9,11 @@ export class animal{
     quero que defina a quantidade
     de olhos e dentes*/
 
-    constructor(){
-       
+    constructor(qtdDentes:number, qtdOlhos:number, nome:string, tipo:string){
+       this.quantidadeDeDentes = qtdDentes
+       this.quantidadeDeOlhos = qtdOlhos
+       this.nomeDoAnimal = nome
+       this.tipoDeAnimal = tipo
     }
 
     public definirNome(nome: string):void{
