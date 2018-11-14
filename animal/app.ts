@@ -7,7 +7,9 @@ tidade de dentes e olhos*/
 
 
 let barroth = new animal()
+barroth.definirNome("Barroth")
 barroth.definirDentes(30)
 barroth.definirOlhos(2)
+barroth.definirTipo("Serpe Bruta")
 
 console.log(barroth)
