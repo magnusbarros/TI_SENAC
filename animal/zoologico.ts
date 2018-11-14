@@ -9,11 +9,14 @@ export default class zoo{
     ou função só poderá ser acessado
     por ele mesmo
     */
-   
+
     constructor(end: string,
         list: Array<animal>){
-            this.endereco = end
             this.listaDeAnimais = list
+        }
+
+        definirEndereco(end: string): void{
+            this.endereco = end
         }
 
         public mostrarEndereco(): string{

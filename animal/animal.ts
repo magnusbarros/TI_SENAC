@@ -7,9 +7,15 @@ export class animal{
     quero que defina a quantidade
     de olhos e dentes*/
 
-    constructor(qtdDentes: number, qtdOlhos:number){
-        this.quantidadeDeDentes = qtdDentes
-        this.quantidadeDeOlhos = qtdOlhos
+    constructor(){
+       
     }
 
+    public definirOlhos(numero: number):void{
+        this.quantidadeDeOlhos = numero
+    }
+
+    public definirDentes(numero: number):void{
+        this.quantidadeDeDentes = numero
+    }
 }
