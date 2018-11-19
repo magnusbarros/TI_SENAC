@@ -1,8 +1,8 @@
 export class animal{
-    private quantidadeDeDentes:number
-    private quantidadeDeOlhos:number
-    private tipoDeAnimal:string
-    private nomeDoAnimal:string
+    protected quantidadeDeDentes:number
+    protected quantidadeDeOlhos:number
+    protected tipoDeAnimal:string
+    protected nomeDoAnimal:string
 
     /*Construtor da classe
     Para que o animal seja criado,
