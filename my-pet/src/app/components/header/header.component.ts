@@ -1,4 +1,6 @@
 import { Component } from "@angular/core"
+import { interpolation1 } from "@angular/core/src/render3";
+import { TestBed } from "@angular/core/testing";
 
 @Component({
     /* Selector é onome que eu quero
@@ -8,5 +10,5 @@ import { Component } from "@angular/core"
 })
 
 export class HeaderComponent {
-    title = 'header'
+    test:string = 'Valor'
 }
