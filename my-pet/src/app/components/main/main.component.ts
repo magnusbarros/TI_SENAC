@@ -23,6 +23,8 @@ export class MainComponent {
     exibirImg:boolean = true;
     true1:string = ""
     true2:string = ""
+    public numbahtwho:number = 666
+    public fugma:string = 'fugma ass. gotcha. '
     while (tru) {
         
     }
@@ -56,5 +58,17 @@ export class MainComponent {
     ocultarImagem(): void{
         this.imagem = '';
     }*/
+
+    public definirTexto (x:string):void{
+        this.fugma = x
+    }
+
+    filhoPai():void{
+        this.definirTexto.emit('fugg')
+    }
+
+    OnInit(){
+        this.enviarTexto()
+    }
 
 }

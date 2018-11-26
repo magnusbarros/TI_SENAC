@@ -10,5 +10,5 @@ import { TestBed } from "@angular/core/testing";
 })
 
 export class HeaderComponent {
-    test:string = 'Valor'
+    test:string = 'OH SHIET NIGGU DEM COPS GON SHOOT ME SHIIIET'
 }
