@@ -5,14 +5,32 @@
 <button (click)='clickButton()'>Exibir</button>
 
 <br><br>
+<div style="border-style: solid;">
     <input type="text" id='txt1' [value]=true1>
     <input type="text" id='txt2' [value]=true2>
     <button (click)='invertext()'>do it</button>
+    </div>
 <br><br>
 <br><br>
 
 <app-esquerdo [Numero]=numbahtwho></app-esquerdo>
 <app-direito (definirTexto)=filhoProdigo($event)></app-direito>
 
+<div style="border-style: solid;">
 <input type="text" id="txtz" [value]=tecc (input)='disparar($event)'>
 <input type="text" [value]=tecsto>
+</div>
+<br><br>
+<div style="border-style: solid;">
+<p *ngFor="let hero of heroes">{{hero.heroName}}, {{hero.heroId}}</p>
+<br><br>
+</div>
+<div style="border-style: solid;">
+    <input type="text" id="do1"><br>
+    <input type="text" id="do2"><br>
+    <button (click)='doIt()'>Enviar</button>
+
+
+<p *ngFor = 'let people of pessoas'>{{people}}</p>
+<p>Número de pessoas: {{number}}</p>
+</div>

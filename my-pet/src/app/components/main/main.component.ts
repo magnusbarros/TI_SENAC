@@ -1,5 +1,7 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { HostListener } from "@angular/core";
+import { HeaderComponent } from "../header/header.component";
+import { Hero } from "../models/hero.model";
 
 @Component({
     /* Selector é onome que eu quero
@@ -8,7 +10,7 @@ import { HostListener } from "@angular/core";
     templateUrl: './main.component.html'
 })
 
-export class MainComponent {
+export class MainComponent implements OnInit{
     tru:boolean = true;
     teste:string = 'Biggus Dickus Innmäi Pantus'
     imagem:string = './../../assets/waifu.png'
@@ -25,9 +27,11 @@ export class MainComponent {
     true2:string = ""
     public numbahtwho:number = 666
     public fugma:string = 'fugma ass. gotcha. '
-    while (tru) {
-        
+
+    ngOnInit(){
+        this.doTheThing();
     }
+   
     clickButton():void{
         if(this.imagem == ''){
             this.imagem = './../../assets/waifu.png';
@@ -62,7 +66,7 @@ export class MainComponent {
     public definirTexto (x:string):void{
         this.fugma = x
     }
-
+/*
     filhoPai():void{
         this.definirTexto.emit('fugg')
     }
@@ -70,5 +74,29 @@ export class MainComponent {
     OnInit(){
         this.enviarTexto()
     }
+*/
 
+heroes = [
+    new Hero(1, 'Benis'),
+    new Hero(2, 'Ebin'),
+    new Hero(3, 'Gondola')
+]
+
+//myHero = this.heroes[0].heroName + ", " + this.heroes[0].heroId
+myHero = []
+public doTheThing():void{
+    for (let i = 0; i < this.heroes.length; i++) {
+        
+    }
+}
+public pessoas = []
+public number:number
+public doIt():void{
+    let txt1 = ((document.getElementById("do1") as HTMLInputElement).value);
+    let txt2 = ((document.getElementById("do2") as HTMLInputElement).value);
+    let total = txt1 + " " + txt2
+    this.pessoas.push(total)
+    this.number = this.pessoas.length
+    console.log(this.pessoas)
+}
 }
