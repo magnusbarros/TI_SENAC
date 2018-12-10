@@ -1,0 +1,12 @@
+<div style='border-style: solid;'>
+  <li *ngFor="let produto of produtos">
+      {{produto.id}}
+      {{produto.nome}}
+      {{produto.descricao}}
+      {{produto.valor}}
+      <a [routerLink]="['/produto', produto.id]">Mais Bepis</a>
+  </li>
+  
+</div>
+
+<p>batata</p>

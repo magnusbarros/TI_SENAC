@@ -1,0 +1,174 @@
+.head{
+    background-color: #000000;
+    /* left: 200px; */
+  }
+  
+  .total{
+  /* padding: 30px; */
+   /* left: 10%; */
+  /* right: 10%; */
+  position: relative;
+  }
+  
+  h1{
+    color: #ffffff;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    right: 30%;
+    z-index: 2;
+    font-family: Helvetica ;
+  }
+  
+  .dog{
+    position: relative;
+    right: 1%;
+  }
+  
+  a.one{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a.two{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a.three{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a.four{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a.five{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  
+  div.one{
+    background-color: #ff8419;
+    height: 0%;
+    width: 4%;
+    position: absolute;
+    padding: 1px;
+    /* top: 5%; */
+    left: 5%;
+    /* transform-origin: bottom; */
+    transition: all .1s linear;
+  }
+  
+  div.two{
+    background-color: #d84b00;
+    height: 0%;
+    width: 4%;
+    position: absolute;
+    padding: 1px;
+    left: 10%;
+    /* top: 130px; */
+    transition: all .1s linear;
+  }
+  
+  div.three{
+    background-color: #438700;
+    height: 0%;
+    width: 5%;
+    position: absolute;
+    padding: 1px;
+    left: 15%;
+    /* top: 130px; */
+    transition: all .1s linear;
+  }
+  
+  div.four{
+    background-color: #6bd800;
+    height: 0%;
+    width: 5%;
+    position: absolute;
+    padding: 1px;
+    left: 20%;
+    /* top: 130px; */
+    transition: all .1s linear;
+  }
+  
+  div.five{
+    background-color: #d800ca;
+    height: 0%;
+    width: 5%;
+    position: absolute;
+    padding: 1px;
+    left: 25%;
+    /* top: 130px; */
+    transition: all .1s linear;
+  }
+  
+  div.one:hover{
+    height: 25%;
+  }
+  
+  div.two:hover{
+    height: 25%;
+  }
+  
+  div.three:hover{
+    height: 25%;
+  }
+  
+  div.four:hover{
+    height: 25%;
+  }
+  
+  div.five:hover{
+    height: 25%;
+  }
+  
+  p{
+    font-family: Helvetica;
+    position: relative;
+    bottom: 18px;
+    left: 10%;
+    font-size: auto;
+  
+  }
+  
+  /* p.galeria{
+    left: 15px;
+  } */
+  
+  
+  div.fundo{
+     /* background: url("../img/background.jpg");*/
+      background-size: contain;
+      background-repeat: repeat;
+       height: 80%;
+      width: 100%;
+      top:  10%;
+      position: relative;
+  }
+  
+  h4{
+    font-family: Helvetica;
+    color: white;
+    position: absolute;
+    /* left: 20px; */
+    bottom: -60px;
+  }
+  
+  .texto{
+    margin-left: 20vh;
+    margin-right: 20vh;
+    padding: 10px;
+    background-color: rgba(230, 232, 237, 0.7);
+  }
+  
+  .total2{
+  /* left: 40%; */
+  position: relative;
+  }
+  

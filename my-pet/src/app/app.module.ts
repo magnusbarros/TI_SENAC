@@ -8,6 +8,10 @@ import { MainComponent } from './components/main/main.component';
 import { EsquerdoComponent } from './components/main/esquerdo/esquerdo.component';
 import { DireitoComponent } from './components/main/direito/direito.component';
 import { TesteComponent } from './components/teste/teste.component';
+import { ProdutoComponent } from './produto/produto.component';
+import { RouterModule } from '@angular/router';
+import { rota } from './app.route';
+import { ProdutosComponent } from './produtos/produtos.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +21,14 @@ import { TesteComponent } from './components/teste/teste.component';
     DireitoComponent,
     MainComponent,
     FooterComponent,
-    TesteComponent
+    TesteComponent,
+    ProdutoComponent,
+    ProdutosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(rota)
   ],
   providers: [],
   bootstrap: [AppComponent]
