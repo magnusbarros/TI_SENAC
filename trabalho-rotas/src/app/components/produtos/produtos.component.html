@@ -1,0 +1,9 @@
+<div class="container">
+<li *ngFor="let produto of produtos">
+   
+    {{produto.nome}} - 
+    R${{produto.valor}}<br>
+
+    <a [routerLink]="['/produtos', produto.id]">Mais informações</a>
+</li>
+</div>

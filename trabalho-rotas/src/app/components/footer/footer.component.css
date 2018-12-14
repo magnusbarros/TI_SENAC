@@ -1,0 +1,24 @@
+@font-face{
+    font-family: googlefont;
+    src: url(../../../assets/font/sans.ttf);
+}
+
+.feet{
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  text-align: center;
+}
+
+h3{
+    font-family: googlefont;
+    color: white;
+}
+
+.local{
+    width: 2ch;
+    position: relative;
+
+}
