@@ -1,0 +1,54 @@
+@font-face{
+    font-family: googlefont;
+    src: url(../../../assets/font/sans.ttf);
+}
+
+
+a{
+   text-decoration: none;
+    padding-left: 5ch;
+    padding-right: 5ch;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+    color: rgb(255, 255, 255);
+    font-family: googlefont;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.logo{
+    width: 15ch;
+    float:left;
+    padding-left: 2ch;
+    padding-right: 2ch;
+    
+    padding-left: 1.2ch;
+    padding-right: 1.2ch;
+   bottom: 3.5ch;
+    position: relative;
+}
+
+.cabeca{
+    background-color:rgb(0, 0, 0);
+    padding: 2ch;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: googlefont;
+}
+
+.mainbtns{
+    border: 2px solid   rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all .1s linear;
+}
+
+.mainbtns:hover{
+    border: 2px solid   rgb(232, 236, 10);
+    border-radius: 5px;
+}

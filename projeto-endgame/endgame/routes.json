@@ -1,0 +1,4 @@
+{
+  "/produtos/*": "/$1",
+  "/produtos\\?id=:id": "/produtos/:id"
+}

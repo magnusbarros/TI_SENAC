@@ -1,0 +1,10 @@
+
+<div>
+   <li *ngFor="let servico of servicos">
+       
+        {{servico.nome}} - 
+        R${{servico.valor}}<br>
+    
+        <a [routerLink]="['/servicos', servico.id]">Mais informações</a>
+    </li>
+    </div>
