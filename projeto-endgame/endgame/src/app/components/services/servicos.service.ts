@@ -14,27 +14,6 @@ export class ServicoService{
 [
    
 ]
-
-    public getservicos(): Array<servico>{
-        return this.servicos
-    }
-    public getServicoPorId(id: number):
-    servico{
-        let servicosinternos: servico[]
-            servicosinternos = this.getservicos()
-                return servicosinternos[id -1]
-    }
-    public getServicosPromise(): Promise<servico[]>{
-        return new Promise((resolve, reject) =>{
-            let works = true
-
-            if(works){
-                resolve(this.servicos)
-            }else{
-                reject({error_type: 'serviço falso', message: 'erro: serviço inexistente'})
-            }
-        })
-    }
     public getServicoPromiseAPI(): Promise<servico[]>{
         
         return this.http.get('http://localhost:3000/services')

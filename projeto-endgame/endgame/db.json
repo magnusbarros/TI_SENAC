@@ -13,7 +13,7 @@
       "nome": "'dingus'",
       "descricao": "'droga ilícita para cachorros'",
       "valor": 36,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/gondola.png",
       "quantidade": 1
     },
     {
@@ -21,7 +21,7 @@
       "nome": "'boaconha'",
       "descricao": "é bão memo",
       "valor": 50,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/boaconha.jpg",
       "quantidade": 4
     },
     {
@@ -29,7 +29,7 @@
       "nome": "'máconha '",
       "descricao": "essa nem tanto'",
       "valor": 5,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/ma_conha.jpg",
       "quantidade": 6
     },
     {
@@ -37,7 +37,7 @@
       "nome": "'revolve '",
       "descricao": "'diretamente do mr. Pussy'",
       "valor": "'500 conto'",
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/pisdogo.jpg",
       "quantidade": 7
     },
     {
@@ -45,7 +45,7 @@
       "nome": "a esse ponto, a criatividade morreu e a entrega atrasou",
       "descricao": "'SOCORRO, ME AJUDA SENHOR!'",
       "valor": 666,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/lazydog.jpg",
       "quantidade": 6
     },
     {
@@ -53,7 +53,7 @@
       "nome": "'pistola'",
       "descricao": "'eu nesse exato momento'",
       "valor": 19,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/angry.jpg",
       "quantidade": 2
     },
     {
@@ -61,7 +61,7 @@
       "nome": "'Processador AMD Ryzen 5'",
       "descricao": "'O AMD Ryzen™ de 2ª Geração chegou: um processador para desktop de alta performance que traz a tecnologia Precision Boost 2 com velocidades de clock mais altas e compatibilidade com memórias de baixa latência, incorporado em um chip de 12 nanômetros, para permitir experiências incríveis em jogos. '",
       "valor": 946.99,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/cpu.jpg",
       "quantidade": 4
     },
     {
@@ -69,7 +69,7 @@
       "nome": "'a'",
       "descricao": "b",
       "valor": 111,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/ay.jpg",
       "quantidade": 3
     },
     {
@@ -77,7 +77,7 @@
       "nome": "'JoJo no Kimyou na Boken - Ogon no Kaze'",
       "descricao": "'A quinta parte da série JoJo no Kimyou na Boken, Ogon no Kaze conta a história de Giorno Giovanna, um jovem italiano que almeja ser um Gangstar!'",
       "valor": 200,
-      "imagem": "../../../../assets/img/bepis.png",
+      "imagem": "../../../../assets/img/jojo.jpeg",
       "quantidade": 1
     }
   ],

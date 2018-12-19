@@ -1,6 +1,13 @@
-<div>
-        <img src="{{servico.imagem}}" width="500px" alt="">
-        <p> {{servico.descricao}}</p><br>
+<style>
+.productdivs{
+    
+    background-color: rgba(230, 232, 237, 0.7);
+}
+</style>
+
+<div class='productdivs'>
+        <img src="{{servico.imagem}}" width="500px"  style="padding: 5vh"alt="">
+        <h5> {{servico.descricao}}</h5><br>
         <a [routerLink]="['/servicos']">Go Back</a>
 
 </div>
