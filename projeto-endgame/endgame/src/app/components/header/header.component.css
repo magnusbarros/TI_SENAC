@@ -33,8 +33,10 @@ a{
 }
 
 .cabeca{
+    position: fixed;
     background-color:rgb(0, 0, 0);
     padding: 2ch;
+    width:100%;
 }
 
 h1{

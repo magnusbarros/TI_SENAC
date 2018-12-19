@@ -10,17 +10,21 @@ import { ServicoService } from '../services/servicos.service';
 })
 export class ServicosComponent implements OnInit {
 
+  
+
   public servicos: servico[]
 
   constructor(private servicosService: ServicoService) { }
 
   ngOnInit() {
-    this.servicosService.getServicosPromise()
-   .then(
-     (prod: servico[]) => {
-       this.servicos = prod
-     }
-   )
+    this.servicosService.getServicoPromiseAPI()
+    .then(
+      (serv: servico[]) => {
+        this.servicos = serv
+      }
+    ),
+    (erro: any) => {console.log(erro)}
+     
   }
   
 

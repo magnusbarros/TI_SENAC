@@ -21,7 +21,7 @@ export class ProdutosComponent implements OnInit {
  constructor(private produtosService: ProdutosService) { }
 
  ngOnInit() {
-   this.produtosService.getProdutosPromise()
+   this.produtosService.getProdutosPromiseAPI()
    .then(
      (prod: produto[]) => {
        this.produtos = prod

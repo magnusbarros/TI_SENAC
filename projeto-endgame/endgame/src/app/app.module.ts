@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProdutoComponent } from './components/produtos/produto/produto.component';
 import { HttpModule, JsonpModule } from '@angular/http';
+import { ServicoComponent } from './components/servicos/servico/servico.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { HttpModule, JsonpModule } from '@angular/http';
     HomeComponent,
     ContatoComponent,
     ServicosComponent,
+    ServicoComponent,
     ProdutosComponent,
     FooterComponent,
     ProdutoComponent

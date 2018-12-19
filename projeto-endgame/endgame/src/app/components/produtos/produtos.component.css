@@ -1,0 +1,8 @@
+.productdivs{
+    border: 2px solid   rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 30vh;
+    height: 35vh;
+    position: static;
+    background-color: rgba(230, 232, 237, 0.7);
+}

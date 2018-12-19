@@ -1,9 +1,7 @@
-<div class="container">
-<li *ngFor="let produto of produtos">
-   
-    {{produto.nome}} - 
-    R${{produto.valor}}<br>
 
-    <a [routerLink]="['/produtos', produto.id]">Mais informações</a>
-</li>
-</div>
+
+    <td class="productdivs" *ngFor="let produto of produtos">
+            <a [routerLink]="['/produtos', produto.id]"><img src="{{produto.imagem}}" style="padding: 20px;" width="200px" alt=""></a>
+            <h4> {{produto.nome}} - </h4> 
+            <p>R$ {{produto.valor}}</p> 
+        </td>

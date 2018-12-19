@@ -1,10 +1,5 @@
-
-<div>
-   <li *ngFor="let servico of servicos">
-       
-        {{servico.nome}} - 
-        R${{servico.valor}}<br>
-    
-        <a [routerLink]="['/servicos', servico.id]">Mais informações</a>
-    </li>
-    </div>
+<td *ngFor="let servico of servicos" class='productdivs'>
+    <a [routerLink]="['/servicos', servico.id]"><img src="{{servico.imagem}}" style="padding: 20px;" width="200px" height="200px" alt=""></a>
+    <h4>{{servico.nome}} - </h4> 
+    <p>R$ {{servico.valor}}</p> 
+</td>
